@@ -11,7 +11,7 @@ func TotalBirdCount(birdsPerDay []int) int {
 }
 
 // BirdsInWeek returns the total bird count by summing
-// only the items belonging to the given week.
+// only the items belonging to the given week
 /*
 	birdsPerDay := []int{2, 5, 0, 7, 4, 1, 3, 0, 2, 5, 0, 1, 3, 1}
 	BirdsInWeek(birdsPerDay, 2)

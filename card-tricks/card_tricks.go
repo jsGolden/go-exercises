@@ -31,6 +31,7 @@ func PrependItems(slice []int, values ...int) []int {
 	if len(values) > 0 {
 		return append(values, slice...)
 	}
+
 	return slice
 
 }
@@ -40,5 +41,6 @@ func RemoveItem(slice []int, index int) []int {
 	if GetItem(slice, index) != -1 {
 		slice = append(slice[:index], slice[index+1:]...)
 	}
+
 	return slice
 }
