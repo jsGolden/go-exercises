@@ -29,7 +29,7 @@ func AddSecretIngredient(friendsList []string, myList []string) {
 func ScaleRecipe(quantities []float64, scale int) []float64 {
 	newQuantities := make([]float64, len(quantities))
 	for i := 0; i < len(quantities); i++ {
-        newQuantities[i] = quantities[i] * float64(scale) / 2.0
+		newQuantities[i] = quantities[i] * float64(scale) / 2.0
 	}
 	return newQuantities
 }
